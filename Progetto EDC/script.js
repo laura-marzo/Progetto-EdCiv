@@ -183,11 +183,6 @@ function closePopup() {
     popup.style.display = "none";
 }
 
-let video_rifiuti= document.getElementById("video-rifiuti");
-let video_ecosistema= document.getElementById("video-ecosistemi");
-
-
-
 let cardsContainer = document.getElementById("cards-container");
 let cardEcosistemi = document.getElementById("ecosistemi-cards");
 function showCards() {

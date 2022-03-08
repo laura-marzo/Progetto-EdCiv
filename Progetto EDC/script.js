@@ -49,13 +49,6 @@ let front = document.getElementById("front");
 let homepage = document.getElementById("homepage");
 let decomp = document.getElementById("decomposizione");
 
-Date.prototype.addDays = function(days) {
-    var date = new Date(this.valueOf());
-    date.setDate(date.getDate() + days);
-    return date;
-}
-var date = new Date();
-
 let arrRifiuti = [["Fazzoletto di carta", "4 settimane", "4.97 milioni di tonnellate annue"], ["Giornale", "6 settimane", "1.6 milioni di tonnellate annue"], ["Fiammifero", "6 mesi", "8 milioni di tonnellate annue"], ["Stoffa", "10 mesi", "62 milioni di tonnellate annue"],
     ["Mozzicone", "1 anno", "766mila tonnellate annue"], ["Gomma da masticare", "5 anni", "560 mila tonnellate annue"], ["lattina alluminio", "10 anni", "31 milioni di tonnellate annue"], 
     ["Cotton fioc", "30 anni", "50 milioni di tonnellate annue"], ["Sacchetto di plastica", "500 anni", "86 mila tonnellate annue"], 
